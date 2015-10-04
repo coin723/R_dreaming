@@ -1,0 +1,6 @@
+library(tidyr)
+weather_wide_full = read.csv('weather_wide_full.csv', encoding = 'UTF-8')
+weather_long_full = gather(weather_wide_full, hour, temp, hour03:hour21)
+library(dplyr)
+group_by(weather_long_full, location) %>% summarise(mean_temp = mean(temp))
+group_by(weather_long_full, hour) %>%  summarise(mean_temp = mean(temp))

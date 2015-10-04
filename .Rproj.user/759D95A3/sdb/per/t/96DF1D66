@@ -1,0 +1,18 @@
+{
+    "contents" : "plot(iris)\nplot(Nile)\n\ndata()\nplot(BOD)\nplot(BOD, type = 'l')\nbarplot(BOD)\n",
+    "created" : 1443173586911.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2055086134",
+    "id" : "96DF1D66",
+    "lastKnownWriteTime" : 1443335800,
+    "path" : "~/Library/Mobile Documents/com~apple~CloudDocs/GitHub/R_dreaming/ggplot2_01.R",
+    "project_path" : "ggplot2_01.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

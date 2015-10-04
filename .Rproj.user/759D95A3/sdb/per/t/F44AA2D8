@@ -1,0 +1,18 @@
+{
+    "contents" : "library(rvest)\ngetMovieInfo <- function(movieCd, key = '09e141d53580865783ee2261d2958418') {\n  restURL <- \n    'http://www.kobis.or.kr/kobisopenapi/webservice/rest/movie/searchMovieInfo.xml?'\n  fetched <- \n    paste0(restURL, 'key=', key, '&movieCd=', movieCd)\n  return(URLencode(fetched))\n}\ntemp <- getMovieInfo('20148846')\ntempXML <- xml(temp)\nTheThrone <- ",
+    "created" : 1442836287421.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3055742176",
+    "id" : "F44AA2D8",
+    "lastKnownWriteTime" : 1442977061,
+    "path" : "~/Library/Mobile Documents/com~apple~CloudDocs/GitHub/R_dreaming/Project_draft_2.R",
+    "project_path" : "Project_draft_2.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
